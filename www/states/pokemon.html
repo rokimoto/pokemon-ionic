@@ -1,0 +1,9 @@
+<ion-view view-title="Pokemon" ng-controller="ApplicationController as app">
+  <ion-content>
+    <div class="list padding-top">
+        <a href="#/app/pokemon/{{poke.resource_uri | getId}}" class="item" ng-repeat="poke in app.pokemon">{{poke.name | capitalize}}
+        </a>
+    </div>
+
+  </ion-content>
+</ion-view>

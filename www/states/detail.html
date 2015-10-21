@@ -1,0 +1,20 @@
+<ion-view ng-controller="ApplicationController as app" view-title="{{app.detail.name}}">
+  <ion-content>
+
+
+    <div class="list card">
+      <div class="row">
+        <div class="col-50 col-offset-25">
+          <div class="item item-image poke-pic">
+            <img src={{app.pokepic}}>
+          </div>
+        </div>
+      </div>
+      <div class="item item-body">
+        <p>{{app.description}}</p>
+      </div>
+
+    </div>
+
+  </ion-content>
+</ion-view>
